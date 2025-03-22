@@ -6,7 +6,7 @@ body, h1, h2, p, ul {
 }
 
 body {
-    background-color: #9F5255;
+    background-color: white;
     text-align: center;
 }
 
@@ -52,9 +52,10 @@ nav ul li a:hover {
 
 /* Profile Container */
 .profile-container {
-    max-width: 800px;
-    margin: 80px auto;
-    background: #E16A54;
+    max-width: 1000px;
+    margin: 20px auto;
+    margin-bottom: 0px;
+    background: #9F5255;
     color: #4b282f;
     padding: 90px;
     border-radius: 10px;
@@ -64,29 +65,48 @@ nav ul li a:hover {
     align-items: center;
 }
 .profile-container h2 {
+    display:flex;
     color: #F39E60;
 }
+.profile-container h2 span {
+    display: block;
+    width: 90px; 
+    height: 2px; 
+    background-color: #4b282f; 
+    margin: auto 10px;
+}
 .profile-img {
-    width: 150px;
-    height: 150px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     object-fit: cover;
-    border: 3px solid #333;
+    border: 3px solid #F39E60;
     margin-bottom: 10px;
 }
 
 /* Content Sections */
 .content-section {
-    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
     margin: 50px auto;
-    background: #E16A54;
+    background: #9F5255;
     color: #4b282f;
     padding: 90px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 .content-section h2 {
+    display: flex;
     color: #F39E60;
+}
+.content-section h2 span {
+    display: block;
+    width: 90px; 
+    height: 2px; 
+    background-color: #4b282f; 
+    margin: auto 10px;
 }
 .content-section ul {
     list-style: none;
