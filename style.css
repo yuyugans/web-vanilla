@@ -6,14 +6,14 @@ body, h1, h2, p, ul {
 }
 
 body {
-    background-color: #f4f4f4;
+    background-color: #9F5255;
     text-align: center;
 }
 
 /* Header Styling */
 .main-header {
-    background-color: #333;
-    color: white;
+    background-color: #7C444F;
+    color: #E16A54;
     padding: 20px;
 }
 
@@ -34,7 +34,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: #F39E60;
     font-weight: bold;
 }
 
@@ -46,15 +46,18 @@ nav ul li a:hover {
 .profile-container {
     max-width: 800px;
     margin: 80px auto;
-    background: white;
-    padding: 20px;
+    background: #E16A54;
+    color: #4b282f;
+    padding: 90px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
+.profile-container h2 {
+    color: #F39E60;
+}
 .profile-img {
     width: 150px;
     height: 150px;
@@ -68,17 +71,24 @@ nav ul li a:hover {
 .content-section {
     max-width: 800px;
     margin: 50px auto;
-    background: white;
-    padding: 20px;
+    background: #E16A54;
+    color: #4b282f;
+    padding: 90px;
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.content-section h2 {
+    color: #F39E60;
+}
+.content-section ul {
+    list-style: none;
 }
 
 /* Social Links */
 .social-links a {
     margin: 10px;
     text-decoration: none;
-    color: #007bff;
+    color: #7b210f;
     font-size: 18px;
 }
 
