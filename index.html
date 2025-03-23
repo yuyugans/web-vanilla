@@ -5,7 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile Page - Mohamad Yusup</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
 </head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js">
+    AOS.init();
+</script>
 <body>
     <header class="main-header">
         <h1>M<a>Y</a></h1>
@@ -19,19 +23,19 @@
         </nav>
     </header>
     
-    <section id="home" class="profile-container">
+    <section id="home" class="profile-container" data-aos="slide-left">
         <img src="src/profile.jpg" alt="Profile Picture" class="profile-img">
         <h2><span></span>Mohamad Yusup<span></span></h2>
         <p>Web Developer | Tech Enthusiast</p>
         <p>Halo! Saya Mohamad Yusup, seorang pengembang web yang bersemangat dalam menciptakan pengalaman digital yang luar biasa.</p>
     </section>
     
-    <section id="about" class="content-section">
+    <section id="about" class="content-section" data-aos="slide-left">
         <h2><span></span>About Me<span></span></h2>
         <p>Saya memiliki pengalaman dalam pengembangan web, terutama dalam HTML, CSS, dan JavaScript. Saya suka belajar teknologi baru dan mengembangkan proyek kreatif.Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, laudantium vero veritatis ipsam iusto veniam iste doloribus eaque beatae excepturi dignissimos neque, eos dolores facere est natus ab? Quis, debitis.</p>
     </section>
     
-    <section id="portfolio" class="content-section">
+    <section id="portfolio" class="content-section" data-aos="slide-left">
         <h2><span></span>Portfolio<span></span></h2>
         <p>Berikut adalah beberapa proyek yang telah saya kerjakan:</p>
         <ul>
@@ -41,7 +45,7 @@
         </ul>
     </section>
     
-    <section id="contact" class="content-section">
+    <section id="contact" class="content-section" data-aos="slide-left">
         <h2><span></span>Contact Me<span></span></h2>
         <p>Jika ingin berkomunikasi lebih lanjut, silakan hubungi saya melalui</p>
         <div class="social-links">
@@ -50,5 +54,6 @@
             <a href="#">Twitter</a>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
